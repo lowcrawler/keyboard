@@ -21,7 +21,7 @@
 &kp LSHFT  &kp Z   &kp X     &kp C     &kp V           &kp B               &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &trans     &trans  &kp LGUI  &kp LALT  &trans                                         &trans     &kp LBKT   &kp RBKT  &trans    &trans
                                        &kp RET         &kp DEL  &kp ESC    &mkp LCLK  &kp BSPC   &kp SPACE
-                                       &kp LEFT_SHIFT  &mo 1    &mo 2      &kp CAPS   &kp ENTER  &kp SPACE
+                                       &kp LEFT_SHIFT  &mo 1    &mo 3      &kp CAPS   &kp ENTER  &kp SPACE
             >;
         };
 
@@ -87,7 +87,15 @@
        // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>;
 
     // activate layer 3 within 500ms of the trackball moving
-     <&zip_temp_layer 3 500>;
+    <&zip_temp_layer 3 500>;
+
+    scroller {
+        layers = <3>;
+        input-processors =
+            <&zip_xy_scaler 1 5>,
+            <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+    };
 };
 
 //left hand trackball configuration
