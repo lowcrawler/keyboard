@@ -18,8 +18,8 @@
 &kp TILDE     &kp A   &kp S     &kp D     &kp F           &kp G                              &kp H            &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp CAPSLOCK  &kp Z   &kp X     &kp C     &kp V           &kp B                              &kp N            &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp F12
 &trans        &trans  &kp LGUI  &kp LALT  &trans                                                              &trans     &kp LBKT   &kp RBKT  &trans    &trans
-                                          &kp LEFT_ARROW   &kp UP_ARROW    &kp RIGHT_ARROW          &kp DELETE       &kp BSPC   &mo 3
-                                          &kp LEFT_SHIFT   &kp RCTRL       &kp DOWN_ARROW           &kp RIGHT_SHIFT  &kp ENTER  &kp SPACE
+                                          &kp LEFT_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW      &kp DELETE  &kp BSPC   &mo 3
+                                          &kp LEFT_SHIFT   &kp DOWN_ARROW   &kp &trans           &kp RCTRL   &kp ENTER  &kp SPACE
             >;
         };
 
@@ -44,8 +44,8 @@
 &kp TILDE     &kp A   &mkp LCLK  &mkp MCLK  &mkp RCLK       &kp G                              &kp H            &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp CAPSLOCK  &kp Z   &kp X      &kp C      &kp V           &kp B                              &kp N            &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp F12
 &trans        &trans  &kp LGUI   &kp LALT   &trans                                                              &trans     &kp LBKT   &kp RBKT  &trans    &trans
-                                          &kp LEFT_ARROW   &kp UP_ARROW    &kp RIGHT_ARROW          &kp DELETE       &kp BSPC   &mo 3
-                                          &kp LEFT_SHIFT   &kp RCTRL       &kp DOWN_ARROW           &kp RIGHT_SHIFT  &kp ENTER  &kp SPACE
+                                          &kp LEFT_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW      &kp DELETE  &kp BSPC   &mo 3
+                                          &kp LEFT_SHIFT   &kp DOWN_ARROW   &kp &trans           &kp RCTRL   &kp ENTER  &kp SPACE
             >;
         };
 
