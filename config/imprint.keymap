@@ -18,8 +18,8 @@
 &kp TILDE     &kp A   &kp S     &kp D     &kp F           &kp G                              &kp H            &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp CAPSLOCK  &kp Z   &kp X     &kp C     &kp V           &kp B                              &kp N            &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp F12
 &trans        &trans  &kp LGUI  &kp LALT  &trans                                                              &trans     &kp LBKT   &kp RBKT  &trans    &trans
-                                          &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW          &kp DELETE   &kp BSPC   &mo 3
-                                          &kp LEFT_SHIFT  &kp RCTRL       &kp DOWN_ARROW           &kp RIGHT_SHIFT  &kp ENTER  &kp SPACE
+                                          &kp LEFT_ARROW   &kp UP_ARROW    &kp RIGHT_ARROW          &kp DELETE       &kp BSPC   &mo 3
+                                          &kp LEFT_SHIFT   &kp RCTRL       &kp DOWN_ARROW           &kp RIGHT_SHIFT  &kp ENTER  &kp SPACE
             >;
         };
 
@@ -44,8 +44,8 @@
 &kp TILDE     &kp A   &mkp RCLK  &mkp MCLK  &mkp LCLK       &kp G                              &kp H            &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp CAPSLOCK  &kp Z   &kp X      &kp C      &kp V           &kp B                              &kp N            &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp F12
 &trans        &trans  &kp LGUI   &kp LALT   &trans                                                              &trans     &kp LBKT   &kp RBKT  &trans    &trans
-                                          &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW          &kp DELETE   &kp BSPC   &mo 3
-                                          &kp LEFT_SHIFT  &kp RCTRL       &kp DOWN_ARROW           &kp RIGHT_SHIFT  &kp ENTER  &kp SPACE
+                                          &kp LEFT_ARROW   &kp UP_ARROW    &kp RIGHT_ARROW          &kp DELETE       &kp BSPC   &mo 3
+                                          &kp LEFT_SHIFT   &kp RCTRL       &kp DOWN_ARROW           &kp RIGHT_SHIFT  &kp ENTER  &kp SPACE
             >;
         };
 
@@ -95,11 +95,11 @@
     };
 };
         // this gets it to the default installation orientation,,,,
-        <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,
+        // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,
         // multiply sensitivity by 1, divide by 3 (make it slower for scrolling),,,,
-        <&zip_xy_scaler 1 3>,
+        // <&zip_xy_scaler 1 3>,
         // make this trackball output scrolling events by default instead of cursor movement,,,,
-        <&zip_xy_to_scroll_mapper>,
+        // <&zip_xy_to_scroll_mapper>,
         // invert vertical scrolling so that the view moves in the same direction as the top of the trackball.,,,,
-        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
-};
+        // <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
+// };
