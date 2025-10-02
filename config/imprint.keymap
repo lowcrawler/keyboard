@@ -19,7 +19,7 @@
 &kp RCTRL     &kp Z   &kp X     &kp C     &kp V           &kp B                              &kp N            &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp F12
 &trans        &trans  &kp LGUI  &kp LALT  &trans                                                              &trans     &kp LBKT   &kp RBKT  &trans    &trans
                                           &kp LEFT_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW      &kp DELETE  &kp BSPC   &mo 3
-                                          &kp LEFT_SHIFT   &kp DOWN_ARROW   &mkp LCLK             &kp RCTRL   &kp ENTER  &kp SPACE
+                                          &kp LEFT_SHIFT   &kp DOWN_ARROW   &mkp LCLK             &mkp LCLK   &kp ENTER  &kp SPACE
             >;
         };
 
@@ -45,13 +45,13 @@
 &kp RCTRL     &kp Z   &kp X      &kp C      &kp V           &kp B                              &kp N            &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp F12
 &trans        &trans  &kp LGUI   &kp LALT   &trans                                                              &trans     &kp LBKT   &kp RBKT  &trans    &trans
                                           &kp LEFT_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW      &kp DELETE  &kp BSPC   &mo 3
-                                          &kp LEFT_SHIFT   &kp DOWN_ARROW   &mkp LCLK             &kp RCTRL   &kp ENTER  &kp SPACE
+                                          &kp LEFT_SHIFT   &kp DOWN_ARROW   &mkp LCLK             &mkp LCLK   &kp ENTER  &kp SPACE
             >;
         };
 
         Auto_Mouse_Layer {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &trans  &bt BT_CLR
 &trans  &trans  &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans            &trans  &trans  &trans  &trans  &trans  &trans
